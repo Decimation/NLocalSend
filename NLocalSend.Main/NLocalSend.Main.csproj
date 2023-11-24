@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -13,13 +13,13 @@
 
   <ItemGroup>
     <Reference Include="Kantan">
-      <HintPath>..\..\Kantan\Kantan\bin\Release\net7.0\Kantan.dll</HintPath>
+      <HintPath>..\..\Kantan\Kantan\bin\Release\net8.0\Kantan.dll</HintPath>
     </Reference>
     <Reference Include="Kantan.Net">
-      <HintPath>..\..\Kantan\Kantan.Net\bin\Release\net7.0\Kantan.Net.dll</HintPath>
+      <HintPath>..\..\Kantan\Kantan.Net\bin\Release\net8.0\Kantan.Net.dll</HintPath>
     </Reference>
     <Reference Include="Novus">
-      <HintPath>..\..\Novus\Novus\bin\Release\net7.0\Novus.dll</HintPath>
+      <HintPath>..\..\Novus\Novus\bin\Release\net8.0\Novus.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -28,11 +28,11 @@
 
     <PackageReference Include="JetBrains.Annotations" Version="2023.3.0" />
 
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.TraceSource" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.TraceSource" Version="8.0.0" />
   </ItemGroup>
 
 </Project>

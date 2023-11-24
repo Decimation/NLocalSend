@@ -40,6 +40,7 @@ namespace NLocalSend
 		public void Join()
 		{
 			Client.JoinMulticastGroup(DefaultMulticastGroup);
+			
 		}
 
 		public async Task<NlsResponse> ReceiveResponseAsync()
